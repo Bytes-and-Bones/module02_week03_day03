@@ -120,8 +120,8 @@
                 <input placeholder="No! Click Over Here!" type="text" onfocus='
                 //*** YOUR JAVASCRIPT CODE HERE ***
                 //Remove the grow class to the HTML element with the smiley emoji
-                let shadeRemove = document.getElementById("shadeEmoji")
-                shadeRemove.className = ""
+                let shadesRemove = document.getElementById("shadeEmoji")
+                shadesRemove.className = ""
                 '/>
             </div>
             <div class="assignmentBlock">
@@ -130,32 +130,44 @@
                 //*** YOUR JAVASCRIPT CODE HERE ***
                 //Assign the grow class to this HTML element
                 //Remove the grow class from the HTML element with the Blue Heart Emoji
+                let redHeartHTML = document.getElementById("redHeartEmoji")
+                redHeartHTML.className = "grow"
+                let redRemove = document.getElementById("blueHeartEmoji")
+                redRemove.className = ""
 
                 '>❤️</h1>
                 <h1 id="blueHeartEmoji" onmouseleave='
                 //*** YOUR JAVASCRIPT CODE HERE ***
                 //Assign the grow class to this HTML element
                 //Remove the grow class from the HTML element with the Red Heart Emoji
+                let blueHeartHTML = document.getElementById("blueHeartEmoji")
+                blueHeartHTML.className = "grow"
+                let blueRemove = document.getElementById("redHeartEmoji")
+                blueRemove.className = ""
 
                 '>💙</h1>
             </div>
 
             <div class="assignmentBlock">
                 <h1>Keys Down</h1>
-                <h1 id="" class="">🔒</h1>
+                <h1 id="lockEmoji" class="">🔒</h1>
                 <input type="text" onkeydown='
                 //*** YOUR JAVASCRIPT CODE HERE ***
                 //Assign the bounceDown class to the HTML element with the Locked Emoji
-
+                let lockBounceDown = document.getElementById("lockEmoji")
+                lockBounceDown.className = "bounceDown"
+                
                 '/>
             </div>
             <div class="assignmentBlock">
                 <h1>Keys Up</h1>
-                <h1 id="" class="">🔐</h1>
+                <h1 id="lockAndKeyEmoji" class="">🔐</h1>
                 <input type="text" onkeyup='
                 //*** YOUR JAVASCRIPT CODE HERE ***
                 //Assign the bounce class to the HTML element with the Locked with Key Emoji
-
+                let lockBounce = document.getElementById("lockAndKeyEmoji")
+                lockBounce.className = "bounce" 
+                
                 '/>
             </div>
             <div class="assignmentBlock">
@@ -165,12 +177,16 @@
                     onclick='
                     //*** YOUR JAVASCRIPT CODE HERE ***
                     //Assign the fadeOut class to the HTML element with the ninja emoji
+                    let ninjaAttack = document.getElementById("ninjaEmoji2")
+                    ninjaAttack.className = "fadeOut"
 
                     '>Attack</button>
                     <button
                     onclick='
                     //*** YOUR JAVASCRIPT CODE HERE ***
                     //Remove the fadeOut class to the HTML element with the ninja emoji
+                    let ninjaDodge = document.getElementById("ninjaEmoji2")
+                    ninjaDodge.className = ""
 
                     '>Dodge</button>
             </div>
